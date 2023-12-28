@@ -1,0 +1,32 @@
+.features-area{
+    margin-top: 30px;
+    text-align: center;
+    margin-inline:  30px; ;
+    gap:40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-section{
+    margin-top: 80px;
+    padding: 80px var(--padding-inline-section);
+}
+
+.feature-header   {
+    text-align: center;
+}
+.feature-header h2  {
+    margin-bottom: 20px;
+}
+.features-card{
+    flex-direction: column;
+    max-width: 30%;
+    gap: 20px;
+}
+.feature-sec{
+    background-image: url(image/feature_sec.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*----------- big features  --------------*/

@@ -1,0 +1,21 @@
+.header-section{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left{
+    max-width: 40vw;
+    align-items: center;
+}
+.header-left p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.header-right img{
+    /* width: 600px; */
+    width: 100%
+}

@@ -1,0 +1,54 @@
+.example-header{
+    /* align-items: center; */
+    text-align: center;
+    flex-direction: column;
+    
+}
+.example-header h2{
+    margin-bottom: 10px;
+}
+
+  /* shadow part  */
+.example-area{
+    margin-top: 1.8rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.example-card{
+    width: 23%;
+    position: relative;
+    height: 300px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1) ,rgb(0,0,0,0.8)),url(image/cardimage4.jpg);
+    /* background-image: url(image/cardimage1.jpg); */
+}
+  .card-text{
+    font-size: 20px !important;
+    position: absolute;
+    bottom: 20px;
+    left:10px;
+    right:10px;
+    color: white;
+  }
+  .ec1{
+    background: linear-gradient(rgb(0,0,0,0.1) ,rgb(0,0,0,0.8)),url(image/cardimage1.jpg);
+    background-size: cover;
+  }
+  .ec2{
+    background: linear-gradient(rgb(0,0,0,0.1) ,rgb(0,0,0,0.8)),url(image/cardimage2.jpg);
+    background-size: cover;
+  }
+  .ec3{
+    background: linear-gradient(rgb(0,0,0,0.1) ,rgb(0,0,0,0.8)),url(image/cardimage3.jpg);
+    background-size: cover;
+  }
+  .ec4{
+    background: linear-gradient(rgb(0,0,0,0.1) ,rgb(0,0,0,0.8)),url(image/cardimage4.jpg);
+    background-size: cover;
+  }
+
+  .example-card:hover{
+    box-shadow: 0 0 10px #888;
+  }
+

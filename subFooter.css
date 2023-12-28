@@ -1,0 +1,20 @@
+
+.sub-foot-cont{
+    justify-content: center;
+    gap: 30px;
+    padding-block: 20px;
+    background-color: #b9cde4;
+    flex-wrap: wrap;
+    
+}
+.sub-foot-cont img{
+    max-height: 15px;
+}
+.sub-foot-cont a{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footicon{
+    margin-left: 80px;
+}
+

@@ -1,0 +1,35 @@
+
+.company-logo img{
+    width: 200px;
+}
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-links-ul{
+    justify-content: end;
+    gap: 40px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+.nav-toggle{
+    margin: 10px;
+    display: none;
+}
+.hover-link{
+    color: var(--primary-color);
+    transition: 1s ease-out;
+}
+.hover-link:hover{
+    color: var(--accent-color)
+    /* color: #2294ed; */
+}
+.primary-btn:hover{
+    background-color: var(--accent-color-dark);
+}
+.secondary-btn:hover{
+    border-color: var(--accent-color) ;
+    color: var(--accent-color)!important;
+}

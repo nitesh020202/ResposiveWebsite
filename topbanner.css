@@ -1,0 +1,17 @@
+.small-bold-text{
+    font-size: 1rem;
+    font-weight:500 ;
+}
+
+
+.banner-text{
+    color:white;
+    padding: 15px 30px;
+    text-align: center;
+}
+.top-banner{
+    background-image: url("image/topbanner.png");
+    background-color:#4dadf7;
+     /* #4fb3d4; */
+    background-size: 300px;
+}

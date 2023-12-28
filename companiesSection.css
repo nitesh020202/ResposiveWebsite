@@ -1,0 +1,13 @@
+.company-header{
+    text-align: center;
+    margin-block: 30px;
+}
+.logo{
+    max-height: 46px;
+    align-items: center;
+}
+.company-logos{
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
